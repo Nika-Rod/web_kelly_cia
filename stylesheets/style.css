@@ -1,0 +1,274 @@
+@font-face {
+    font-family: "amatic-regular";
+    src: url("../fonts/amatic/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: "amatic-bold";
+    src: url("../fonts/amatic/Amatic-Bold.ttf");
+}
+
+header {
+    font-family: "amatic-regular";
+}
+
+body {
+    background-color: #F2BBD9;
+    font-family: "amatic-bold";
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 600;
+    color: #D92579!important;
+}
+
+.line{
+    width: auto;
+    border: 3px solid #D92579;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.home-banner h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.home-banner{
+    text-align: center;
+    font-size: 20px;
+}
+
+.specialties {
+    background-color: #D92579;
+    padding: 50px;
+    color: #FFF;
+    margin-top: 30px;
+}
+
+.specialties p{
+    font-size: 25px;
+}
+
+.specialties small{
+    font-size: 16px;
+}
+
+.banner {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: rgba(140, 39, 66, 0.7) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 60px;
+}
+
+.banner h2{
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(140, 39, 66, 0.8);
+}
+
+.banner small{
+    font-weight: 700;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px rgba(140, 39, 66, 0.8);
+}
+
+.services-title{
+    font-weight: bold;
+    color: #FFF;
+}
+
+.services-title h2{
+    font-size: 35px;
+    color: #D92579;
+}
+
+.services {
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: rgba(140, 39, 66, 0.3) 0px 19px 38px, rgba(140, 39, 66, 0.22) 0px 6px 12px;
+    background-color: #D92579;
+}
+
+.services:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(140, 39, 66, 0.5) 0px 19px 38px, rgba(140, 39, 66, 0.28) 0px 8px 12px;
+}
+
+.services p{
+    font-size: 18px;
+    color: #FFF;
+}
+
+.button {
+    background-color: #D92579;
+    border: 1px solid #D92579;
+    padding: 1% 6%;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button:hover {
+    background-color: #FFF;
+    border: 1px solid #D92579;
+    color: #D92579;
+}
+
+.carregando {
+    opacity: 0;
+    transition: opacity linear 0.5s;
+}
+
+.carregado {
+    opacity: 1;
+}
+
+.container-img{
+    position: relative;
+}
+
+.img-1{
+    width: 70%;
+}
+
+.img-2{
+    width: 55%;
+    position: absolute;
+    left: 45%;
+    top: 21%;
+    transform: rotate(12deg);
+}
+
+
+
+.navbar img {
+    width: 85%;
+}
+
+
+/* icons */
+
+.icons-2 {
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width:993px) {
+    .navbar{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .home-banner-emphasis{
+        flex-direction: column-reverse} 
+
+    .img-1{
+        width: 35%;
+    }
+
+    .img-2{
+        width: 27%;
+        left: 53%;
+        transform: rotate(11deg);
+    }
+
+    .banner img{
+        display: none;
+    }
+
+    .specialties{
+        padding: 30px;
+    }
+
+    .specialties p{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .specialties img{
+        display: none;
+    }
+
+    .banner h2{
+        font-size: 25px;
+    }
+
+    .banner p{
+        font-size: 20px;
+    }
+
+    .banner button{
+        padding: 1% 3%;
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    .services img{
+        width: 40px;
+    }
+
+    .services p{
+        font-size: 22px;
+    }
+
+    .navbar img {
+        width: 50%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #D92579;
+        border-color: #D92579;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .payments {
+        margin-top: 15px;
+    }
+
+    .topics{
+        margin: 15px 0;
+    }
+
+    .banner{
+        width: 90%;
+    }
+
+    .services-title h2 {
+        font-size: 30px;
+    }
+
+    .img-1{
+        width: 50%;
+    }
+
+    .img-2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .services p{
+        font-size: 18px;
+    }
+
+    .services img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .banner small{
+        font-size: 18px;
+    }
+
+    .banner h2{
+        font-size: 22px;
+        margin-top: 8px;
+    }
+}
